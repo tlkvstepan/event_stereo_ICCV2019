@@ -1,4 +1,4 @@
-# Learning an event sequence embedding for dense event-based deep stereo (work in progress)
+# Learning an event sequence embedding for dense event-based deep stereo
 
 ## Description
 Asynchronous event sequences require special handling, since traditional algorithms work only with synchronous, spatially gridded data. To address this problem we introduce a new module for event sequence embedding, for use in different applications. The module builds a representation of an event sequence by firstly aggregating information locally across time, using a novel fully-connected layer for an irregularly sampled continuous domain, and then across discrete spatial domain. Based on this module, we design a deep learning-based stereo method for event-based cameras. The proposed method is the first learning-based stereo method for an event-based camera and the only method that produces dense results. We show large performance increases on the Multi Vehicle Stereo Event Camera Dataset (MVSEC). 
