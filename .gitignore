@@ -1,0 +1,9 @@
+*.py[cod]
+*.c
+*.so
+__pycache__/
+.coverage
+.coverage.*
+build/
+.eggs/
+src/*.egg-info
